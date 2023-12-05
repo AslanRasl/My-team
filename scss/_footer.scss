@@ -1,0 +1,46 @@
+.footer{
+    background: #002529;
+    padding: 48px 0;
+}
+.footer__glav{
+    display: flex;
+}
+.footer__left{
+    margin-left: -200px;
+}
+
+.footer__left p{
+
+color: #FFF;
+font-family: Livvic;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 166.667% */
+opacity: 0.6;
+}
+.footer__rightt p{
+color: #FFF;
+text-align: right;
+font-family: Livvic;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 166.667% */
+width: 255px;
+opacity: 0.6;
+}
+.footer__sred{
+display: flex;
+margin-left: -25px;
+}
+.footer__left{
+margin-left: 125px;
+}
+.footer__right{
+margin-left: 400px;
+}
+.footer__right img{
+margin-left: 150px;
+padding-bottom: 51px;
+}

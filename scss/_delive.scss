@@ -1,0 +1,107 @@
+.delive{
+    background: #004047;
+    background-image: url('../img/bg1.svg'),url('../img/bg2.svg');
+    background-repeat: no-repeat;
+    background-position: left top , right bottom;
+    }
+    .delive__title{
+        display: flex;
+    }
+    .delive__item{
+    text-align: center;
+    align-items: center;
+    margin-top: 56px;
+    margin-left: 30px;
+    }
+    .delive__item--img{
+        width: 67px;
+        height: 56px;
+        flex-shrink: 0;
+        margin: 0 auto;
+        margin-bottom: -20px;
+    }
+    .delive__item--1{
+        width: 350px;
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        margin: 0 auto;
+        line-height: 25px; /* 166.667% */
+    }
+    .delive__item--2{
+        width: 350px;
+        color: #79C8C7;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 155.556% */
+        margin-top: 24px;
+        margin: 0 auto;
+    }
+    .delive__item--3{
+        width: 350px;
+        color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px; /* 138.462% */
+    margin: 0 auto;
+    }
+    
+    .delive__item--img2{
+        width: 62px;
+        height: 62px;
+        flex-shrink: 0;
+        margin: 0 auto;
+        margin-top: 32px;
+        padding-bottom: 151px;
+    }
+    .dilive__text{
+        width: 932px;
+        color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 100% */
+    color: #79C8C7;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    display: flex;
+    padding-top: 140px;
+    margin-left: 154px;
+    margin: 0 auto;
+    }
+    
+    
+    @media (max-width:1160px) {
+        
+       .delive__title{
+        display: block;
+       }
+       .dilive__text{
+        font-size: 32px;
+        font-weight: 700;
+        width: 573px;
+       }
+    
+    }
+    @media (max-width:550) {
+     .dilive__text{
+         width: 327px;
+        }   
+    }
+    
+    
+    
